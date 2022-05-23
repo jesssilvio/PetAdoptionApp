@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Pet Adoption App"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:text="Would you like to look for a dog or a cat?"
+        android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/dogBtn"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="20dp"
+            android:onClick="goDogAdoptionPage"
+            app:icon="@drawable/dog"
+            app:iconSize="100dp" />
+
+        <Button
+            android:id="@+id/catBtn"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:onClick="goCatAdoptionPage"
+            app:icon="@drawable/cat"
+            app:iconSize="100dp" />
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/buttons2" />
+
+    <LinearLayout
+        android:id="@+id/buttons2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/buttons">
+
+
+        <Button
+            android:id="@+id/fragment1btn"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/colorLight"
+            android:text="Donate"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/fragment2btn"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/colorLight"
+            android:text="Volunteer"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+

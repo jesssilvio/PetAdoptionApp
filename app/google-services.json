@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "660584297827",
+    "firebase_url": "https://petadoptionapp-cd7dc-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "petadoptionapp-cd7dc",
+    "storage_bucket": "petadoptionapp-cd7dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660584297827:android:2a53049f04330a34634f56",
+        "android_client_info": {
+          "package_name": "com.example.petadoptionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660584297827-mp4frhtebkvrv2b42ka2evmu8ln9vrft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyIATjIl5WGw3usTDBjqT0IX_bh0h8u9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660584297827-mp4frhtebkvrv2b42ka2evmu8ln9vrft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
